@@ -1,6 +1,7 @@
 /*Importações*/
   @import './header.css';
   @import './butons.css';
+  @import './main.css';
   /*Fonte*/
    @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 /*END Importações*/
@@ -16,6 +17,7 @@
   text-decoration: none;
 
   font-family: "Source Code Pro", system-ui;
+  font-weight: 300;
 }
 /*END Reseta*/
 .container{
