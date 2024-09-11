@@ -2,6 +2,7 @@
   @import './header.css';
   @import './butons.css';
   @import './main.css';
+  @import './footer.css';
   /*Fonte*/
    @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 /*END Importações*/
@@ -15,11 +16,18 @@
   font: inherit;
   vertical-align: baseline;
   text-decoration: none;
+  list-style: none;
 
   font-family: "Source Code Pro", system-ui;
   font-weight: 300;
 }
 /*END Reseta*/
+body{
+  background-image: url('../images/bolha-background.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
 .container{
   width: 1024px;
   margin: 30px auto; /*Topo e pé 0 e lados Autos*/
