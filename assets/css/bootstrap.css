@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  list-style: none;
+
+  font-family: "Source Code Pro", system-ui;
+  font-weight: 300;
+}
+/*END Reseta*/
+body{
+  background-image: url('../images/bolha-background.png');
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.container{
+  width: 1024px;
+  margin: 30px auto; /*Topo e pé 0 e lados Autos*/
+  display: flex;
+  flex-direction: column;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
